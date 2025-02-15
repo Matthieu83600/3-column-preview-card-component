@@ -117,3 +117,8 @@ body {
   color: var(--very-dark-cyan);
 }
 /* Responsive */
+@media (max-width: 42.5rem) {
+  .container {
+    grid-template-columns: repeat(1, auto);
+  }
+}
