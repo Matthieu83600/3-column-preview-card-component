@@ -50,6 +50,7 @@ body {
   max-width: 57.5rem;
   border-radius: 0.5rem;
   overflow: hidden;
+  margin-block: 128px;
 }
 /* Card */
 .card {
@@ -120,5 +121,6 @@ body {
 @media (max-width: 42.5rem) {
   .container {
     grid-template-columns: repeat(1, auto);
+    margin-block: 0;
   }
 }
